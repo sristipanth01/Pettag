@@ -5,7 +5,7 @@ import dogImage0 from "../images/img_vet.jpg";
 import dogImage1 from "../images/img1.jpg";
 import dogImage2 from "../images/img6.jpg";
 import dogImage3 from "../images/dog.jpeg";
-// import teamMember1 from "../images/team1.jpg"; // Add the team member images
+// import teamMember1 from "../images/team1.jpg";
 // import teamMember2 from "../images/team2.jpg";
 // import teamMember3 from "../images/team3.jpg";
 
@@ -115,7 +115,6 @@ const About = () => {
         Our Team Members
       </h2>
 
-      {/* Team Members Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
         {/* Team Member 1 */}
         <div className="flex flex-col items-center">

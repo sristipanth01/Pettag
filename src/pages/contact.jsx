@@ -241,7 +241,6 @@ function ContactUs() {
       </div>
 
       <div className="flex gap-8 mt-8 p-5">
-        {/* Left section for contact details */}
         <div className="w-1/2 text-left mt-6">
           <h3 className="mb-2 font-bold text-2xl animate-fadeInUp">
             Our Address
@@ -273,7 +272,6 @@ function ContactUs() {
           <p className="my-1">+977-9867423768</p>
         </div>
 
-        {/* Right section for map */}
         <div className="w-1/2 mt-6">
           <h3 className="mb-2 font-bold text-2xl animate-fadeInUp">
             Our Location

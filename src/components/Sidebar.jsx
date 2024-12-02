@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../images/logo2.png";
 import { FaCommentAlt, FaTh, FaThList, FaUserAlt } from "react-icons/fa";
 import { MdFeedback } from "react-icons/md";
+import { BsQrCode } from "react-icons/bs";
 import { NavLink, useLocation } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -32,6 +33,11 @@ const Sidebar = ({ children }) => {
       name: "Chatbox",
 
       icon: <FaCommentAlt />,
+    },
+    {
+      path: "/QR",
+      name: "QR",
+      icon: <BsQrCode />,
     },
   ];
 

@@ -13,6 +13,9 @@ import Zenesh from "./profiles/zenesh.jsx";
 import Shristi from "./profiles/shristi.jsx";
 import Bikalpa from "./profiles/bikalpa.jsx";
 import Profileview from "./profiles/profileview.jsx";
+import Blog from "./pages/Blog.jsx";
+import DetailedBlog from "./pages/DetailedBlog.jsx";
+import QR from "./pages/QR.jsx";
 
 const App = () => {
   return (
@@ -23,11 +26,15 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/qr" element={<QR />} />
           <Route path="/chatbox" element={<Chatbox />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/profile/zenesh" element={<Zenesh />} />
           <Route path="/profile/shristi" element={<Shristi />} />
           <Route path="/profile/bikalpa" element={<Bikalpa />} />
           <Route path="/profile/profileview" element={<Profileview />} />
+          <Route path="/" element={<Blog />} />
+          <Route path="/blog/:id" element={<DetailedBlog />} />
         </Routes>
       </Sidebar>
     </BrowserRouter>
